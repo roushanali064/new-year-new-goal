@@ -1,7 +1,54 @@
  /* basic setup start */
- *{
-    font-family: 'Work Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+ * {
+     font-family: 'Work Sans', sans-serif;
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+ }
+
+ .container {
+     max-width: 1140px;
+     margin: 0 auto;
+ }
+
+ .btn-primary {
+     font-weight: 600;
+     font-size: 20px;
+     color: #005FAC;
+     background: #FFFFFF;
+     border: none;
+     border-radius: 5px;
+     padding: 20px 25px;
+
+ }
+
+ /* heder section start */
+ .banner {
+     background-image: url(../images/banner/banner3.png);
+     height: 808px;
+ }
+
+ .banner-item {
+    padding-top: 215px;
+ }
+
+ .banner-title {
+     font-weight: 700;
+     font-size: 65px;
+     text-align: right;
+     color: #FFFFFF;
+ }
+
+ .banner-description {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     text-align: right;
+     color: #FFFFFF;
+     margin-top: 24px;
+     margin-bottom: 32px;
+
+ }
+ .banner-btn{
+    text-align: right;
  }
