@@ -29,7 +29,7 @@
  }
 
  .banner-item {
-    padding-top: 215px;
+     padding-top: 215px;
  }
 
  .banner-title {
@@ -39,7 +39,7 @@
      color: #FFFFFF;
  }
 
- .banner-description {
+ .section-description {
      font-weight: 400;
      font-size: 16px;
      line-height: 26px;
@@ -49,6 +49,37 @@
      margin-bottom: 32px;
 
  }
- .banner-btn{
-    text-align: right;
+
+ .banner-btn {
+     text-align: right;
+ }
+
+ /* start failure styles */
+ .failure {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 130px;
+ }
+
+ .failure-img {
+     height: 720px;
+ }
+
+ .section-title {
+     font-weight: 700;
+     font-size: 40px;
+     color: #151414;
+ }
+ .content{
+    margin-top: 300px;
+ }
+ .failure .section-description{
+    color: #444343;
+    text-align: left;
+ }
+ .description-task{
+    font-weight: 400;
+     font-size: 16px;
+     line-height: 26px;
+     color: #444343;
  }
