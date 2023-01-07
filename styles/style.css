@@ -25,6 +25,7 @@
  /* heder section start */
  .banner {
      background-image: url(../images/banner/banner3.png);
+     background-repeat: no-repeat;
      height: 808px;
  }
 
@@ -89,7 +90,7 @@
 
  /* start my plans section */
  .my-plan {
-    margin-top: 120px;
+     margin-top: 120px;
  }
 
  .my-plan .section-title {
@@ -116,19 +117,78 @@
      font-size: 25px;
      color: #737272;
  }
+
  /* start contact section */
-.contact{
-    background-image: url(../images/watch.png);
-    height: 300px;
-    border-radius: 8px;
-}
-.contact-item{
-    background-image: url(../images/gradient2.png);
-    height: 300px;
-}
-.contact-item .section-title{
+ .contact {
+     background-image: url(../images/watch.png);
+     height: 300px;
+     border-radius: 8px;
+ }
+
+ .contact-item {
+     background-image: url(../images/gradient2.png);
+     height: 300px;
+ }
+
+ .contact-item .section-title {
+     color: #FFFFFF;
+ }
+
+ .contact-content {
+     padding: 60px;
+ }
+
+ /* start footer section */
+ footer {
+     background: #151414;
+     margin-top: 130px;
+ }
+
+ .footer-item {
+     display: flex;
+     justify-content: space-between;
+     padding: 130px 0;
+ }
+
+ .footer-item .section-title {
+     color: #F8F8F8;
+     margin-bottom: 15px;
+ }
+
+ .future p {
+     font-weight: 400;
+     font-size: 16px;
+     color: #FFFFFF;
+ }
+
+ .footer-description {
+     margin-bottom: 24px;
+ }
+
+ .email {
+     margin-bottom: 16px;
+ }
+
+ .phone {
+     margin-bottom: 32px;
+ }
+
+ .future img {
+     margin-right: 17px;
+ }
+
+ .subscribe input[type=email] {
+     font-weight: 400;
+     font-size: 18px;
+     color: #F3F3F3;
+     background: #151414;
+     border: 1px solid #F3F3F3;
+     border-radius: 8px;
+     padding: 20px;
+     display: block;
+     margin-bottom: 16px;
+ }
+ .subscribe input[type=submit]{
+    background: #005FAC;
     color: #FFFFFF;
-}
-.contact-content{
-    padding: 60px;
-}
+ }
