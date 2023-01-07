@@ -88,6 +88,11 @@
      color: #444343;
  }
 
+ .description-task img {
+     width: 24px;
+     height: 24px;
+ }
+
  /* start my plans section */
  .my-plan {
      margin-top: 120px;
@@ -188,7 +193,8 @@
      display: block;
      margin-bottom: 16px;
  }
- .subscribe input[type=submit]{
-    background: #005FAC;
-    color: #FFFFFF;
+
+ .subscribe input[type=submit] {
+     background: #005FAC;
+     color: #FFFFFF;
  }
