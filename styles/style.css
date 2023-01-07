@@ -70,16 +70,65 @@
      font-size: 40px;
      color: #151414;
  }
- .content{
-    margin-top: 300px;
+
+ .content {
+     margin-top: 300px;
  }
- .failure .section-description{
-    color: #444343;
-    text-align: left;
+
+ .failure .section-description {
+     color: #444343;
+     text-align: left;
  }
- .description-task{
-    font-weight: 400;
+
+ .description-task {
+     font-weight: 400;
      font-size: 16px;
      line-height: 26px;
      color: #444343;
  }
+
+ /* start my plans section */
+ .my-plan {
+    margin-top: 120px;
+ }
+
+ .my-plan .section-title {
+     text-align: center;
+ }
+
+ .plan-item {
+     display: flex;
+     justify-content: space-around;
+     text-align: center;
+     text-transform: capitalize;
+     margin-top: 50px;
+     margin-bottom: 130px;
+ }
+
+ .plan-title {
+     font-weight: 700;
+     font-size: 30px;
+     color: #151414;
+ }
+
+ .plan-description {
+     font-weight: 500;
+     font-size: 25px;
+     color: #737272;
+ }
+ /* start contact section */
+.contact{
+    background-image: url(../images/watch.png);
+    height: 300px;
+    border-radius: 8px;
+}
+.contact-item{
+    background-image: url(../images/gradient2.png);
+    height: 300px;
+}
+.contact-item .section-title{
+    color: #FFFFFF;
+}
+.contact-content{
+    padding: 60px;
+}
